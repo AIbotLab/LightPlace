@@ -1,0 +1,111 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            // "cwd": "/home/cjq/work/ISPDPlace",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: DreamPlace/build",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cjq/work/DREAMPlace/build/dreamplace/Placer.py",
+            "cwd": "/home/cjq/work/DREAMPlace",
+            "args": [
+                "/home/cjq/work/DREAMPlace/test/case1.json",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/graph/anaconda3/envs/DreamPlace/bin/python3.7"
+        },
+        {
+            "name": "Python: DreamPlace_dct/build",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cjq/work/DREAMPlace_dct/build/dreamplace/Placer.py",
+            "cwd": "/home/cjq/work/DREAMPlace_dct",
+            "args": [
+                "/home/cjq/work/DREAMPlace_dct/test/case1.json",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/home/graph/anaconda3/envs/DreamPlace/bin/python3.7"
+        },
+        {
+            "name": "Python: DreamPlace_backup/build",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cjq/work/DREAMPlace_backup/build/dreamplace/Placer.py",
+            "cwd": "/home/cjq/work/DREAMPlace_backup",
+            "args": [
+                "/home/cjq/work/DREAMPlace_backup/test/random1.json",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/home/graph/anaconda3/envs/DreamPlace/bin/python3.7"
+        },
+        {
+            "name": "Python: eDensity3D/build",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cjq/work/ICCAD2023New/place3d/eDensity3d/build/dreamplace/Placer.py",
+            "cwd": "/home/cjq/work/ICCAD2023New/place3d/eDensity3d",
+            "args": [
+                "/home/cjq/work/ICCAD2023New/place3d/eDensity3d/test/case1.json",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/home/graph/anaconda3/envs/DreamPlace/bin/python3.7"
+        },
+        {
+            "name": "Python: place2d/build",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cjq/work/ISPDPlace/place2d/build/dreamplace/Placer.py",
+            "cwd": "/home/cjq/work/ISPDPlace",
+            "args": [
+                "/home/cjq/work/ISPDPlace/temp/b_mix2d/json/bigblue2_2/layer_1/bigblue2_2.json",
+                "1"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/home/graph/anaconda3/envs/DreamPlace/bin/python3.7"
+        },
+        {
+            "name": "Python: Placement.py",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cjq/work/ISPDPlace/Placement.py",
+            "cwd": "/home/cjq/work/ISPDPlace",
+            "args": [
+                "/home/cjq/work/ISPDPlace/benchmarks/ispd2005/adaptec1/adaptec1.aux",
+                "2"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/home/graph/anaconda3/envs/DreamPlace/bin/python3.7"
+        },
+        {
+            "name": "Python: PlacementFixedMacro.py",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/cjq/work/ISPDPlace/PlacementFixedMacro.py",
+            "cwd": "/home/cjq/work/ISPDPlace",
+            "args": [
+                "/home/cjq/work/ISPDPlace/benchmarks/ispd2005NewDelete/adaptec1/adaptec1.aux",
+                "2"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/home/graph/anaconda3/envs/DreamPlace/bin/python3.7"
+        }
+    ]
+}

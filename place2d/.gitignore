@@ -1,0 +1,7 @@
+build/
+cmake
+test
+*.dot
+*.svg
+unittest
+Dockerfile
