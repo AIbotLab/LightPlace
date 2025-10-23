@@ -1,3 +1,3 @@
 # LightPlace
 
-3D Placement Cide
+3D Placement Code
